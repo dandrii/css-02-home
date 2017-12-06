@@ -1,0 +1,98 @@
+html {
+    font-family: 'Bangers', cursive;
+}
+
+body {
+    max-width: 900px ;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+
+.page-wrapper div div {
+    border: 2px solid black;
+    padding: 2px;
+    margin: 4px;
+}
+
+#zen-supporting  {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+#zen-supporting div  {
+    width: 300px;
+	height: 1100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#zen-explanation {
+    background-image: url("../img/snowman1.jpg");
+    background-position: 20px 10px ;
+    background-repeat: no-repeat;
+    }
+
+#zen-participation {
+    background-image: url("../img/snowman2.jpg");
+    background-position: 40px 10px ;
+    background-repeat: no-repeat;
+    }
+    
+#zen-benefits {
+    background-image: url("../img/snowman3.jpg");
+    background-position: 40px 50px ;
+    background-repeat: no-repeat;
+}
+    
+header {
+    background-color: #010916;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+footer {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+    border: 2px solid black;
+    width: 888px;
+	height: 50px;
+	align-items: center;
+}
+
+#design-selection {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-image: url("../img/snowman4.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 20px 60px ;
+}
+
+#design-archives {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  
+}
+   
+#zen-resources {
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-image: url("../img/snowman5.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 20px 10px ;
+}
